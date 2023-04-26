@@ -1,7 +1,6 @@
 import string
 from ps4a import get_permutations
 
-### HELPER CODE ###
 def load_words(file_name):
     '''
     file_name (string): the name of the file containing 
@@ -42,15 +41,14 @@ def is_word(word_list, word):
     return word in word_list
 
 
-### END HELPER CODE ###
-
 WORDLIST_FILENAME = 'words.txt'
 
-# you may find these constants helpful
 VOWELS_LOWER = 'aeiou'
 VOWELS_UPPER = 'AEIOU'
 CONSONANTS_LOWER = 'bcdfghjklmnpqrstvwxyz'
 CONSONANTS_UPPER = 'BCDFGHJKLMNPQRSTVWXYZ'
+
+# The code above this line had been provided by MIT
 
 class SubMessage(object):
     def __init__(self, text):
